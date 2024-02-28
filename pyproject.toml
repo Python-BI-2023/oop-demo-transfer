@@ -1,0 +1,10 @@
+[tool.isort]
+line_length = 120
+skip = "venv"
+indent = "    "
+multi_line_output = 3
+profile = "black"
+
+[tool.black]
+exclude = "venv"
+line-length = 120
